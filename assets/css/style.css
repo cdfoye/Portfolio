@@ -1,19 +1,18 @@
-/* add picture to background instead of color */
-* {
+/* Sets behavior of width and height properties and sets font family for the page*/
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+} */
 
-
-
+/* Sets the padding, background color of the header */
 .header {
     padding: 20px;
     background-color: #0b1b24;
-    color: #ffffff;
 }
 
+/* Sets the padding, font color, background color, justification, and inline display of the h1 text */
 .header h1 {
     display: inline;
     font-size: 25px;
@@ -27,6 +26,7 @@
     color: #0b1b24;
 }
 
+/* Sets nav links font size, locates them to the right of the page, and positions them horizontally */
 .header ul {
     float: right;
     font-size: 20px;
@@ -34,22 +34,19 @@
     margin-right: 10px;
 }
 
+/* displays links inline-block and sets spacing between links */
 .header ul li{
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets the font color and adds an underline below the words */
 .header ul li a {
     color: rgb(12, 161, 161);
     text-decoration: underline;
 }
 
-/* #header-image-menu{
-    position: relative;
-    top: 0;
-    left: 0;
-} */
-
+/* Sets sizing and positioning of header image */
 .header-image{
     width: 100%;
     margin: none;
@@ -59,6 +56,7 @@
     left: 0px;
 }
 
+/* Sets sizing and positioning of personal photo */
 .personal-photo{
     position: absolute;
     top: 150px;
@@ -69,25 +67,19 @@
     flex-wrap: wrap;
 }
 
-#image-text{
-    position: absolute;
-    top: 75%;
-    left: 70%;
-    color: #0b1b24;
-    background-color: rgb(12, 161, 161);
-    text-align: center;
-}
-
 /* Create two unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
     color: #0b1b24;
 }
+
+/* Sets width of left column */
 .left {
     width: 35%;
 }
-  
+ 
+/* Sets width of right column */
 .right {
     width: 65%;
 }
@@ -99,6 +91,7 @@
     clear: both;
 }
 
+/* h2 sizing, positioning, and font-size */
 h2 {
     display: flex;
     justify-content: end;
@@ -107,6 +100,7 @@ h2 {
     width: -150px;
 }
 
+/* h3 sizing, positioning, and font-size */
 h3 {
     display: flex;
     justify-content: end;
@@ -115,18 +109,21 @@ h3 {
     width: -150px;
 }
 
+/*  */
 .row2:after {
     content: "";
     display: table;
     clear: both;
 }
 
+/*  */
 .row3:after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* Sets sizing of "Work" header */
 h4 {
     display: flex;
     justify-content: end;
@@ -135,16 +132,19 @@ h4 {
     width: -150px;
 }
 
+/* Sets positioning of the top photo in the work section */
 #top-photo {
     position: relative;
 }
 
+/* Sets sizing of top photo in the work section */
 #top-photo img {
     width: 698px;
     height: 250px;
     padding-left: 4px;
 }
 
+/* Sets text styling of the top photo textbox */
 #top-photo .top-photo-text {
     color: #0b1b24;
     background-color: rgb(12, 161, 161);
@@ -157,26 +157,31 @@ h4 {
     padding-bottom: 2px;
 }
 
+/* Font sizing for work photo text boxes */
 h5 {
     font-size: 20px;
 }
 
+/* Font sizing for paragraphs */
 p {
     font-size: 15px;
 }
 
+/* Flexbox styling for "work" images */
 div #images{
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: end;
     position: relative;
 }
 
+/* Flexbox styling for "work" images */
 div #images div.project-row {
     display: flex;
     flex-flow: row;
 }
 
+/* Sizing and padding for bottom work images */
 div #images img{
     width: 350px;
     height: 150px;
@@ -186,6 +191,7 @@ div #images img{
     padding-bottom: 2px;
 }
 
+/* textbox colors and positiong for project 2 */
 #images .project2 {
     color: #0b1b24;
     background-color: rgb(12, 161, 161);
@@ -198,6 +204,7 @@ div #images img{
     padding-bottom: 2px;
 }
 
+/* textbox colors and positiong for project 3 */
 #images .project3 {
     color: #0b1b24;
     background-color: rgb(12, 161, 161);
@@ -210,6 +217,7 @@ div #images img{
     padding-bottom: 2px;
 }
 
+/* textbox colors and positiong for project 4 */
 #images .project4 {
     color: #0b1b24;
     background-color: rgb(12, 161, 161);
@@ -221,6 +229,8 @@ div #images img{
     padding-right: 4px;
     padding-bottom: 2px;
 }
+
+/* textbox colors and positiong for project 5 */
 #images .project5 {
     color: #0b1b24;
     background-color: rgb(12, 161, 161);
@@ -233,6 +243,7 @@ div #images img{
     padding-bottom: 2px;
 }
 
+/* Sizing and flexbox styling for "contact me" header */
 h6 {
     display: flex;
     justify-content: end;
@@ -240,29 +251,63 @@ h6 {
     flex-wrap: wrap;
     width: -150px;
 }
+
+/* display settings and margining for contacts */
 .row3 ul li{
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Adds color and an underline to contact links */
 .right a {
     color: #0b1b24;
     text-decoration: underline;
 }
 
+/* sets a border and properties to the left of all of the content on the right */
 .border-left {
     border-left: 3px solid #0b1b24;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+/* Adjustments to sizing and positioning when the user is on a mobile device */
 @media screen and (max-width: 768px) {
-    header {
-      flex-direction: column;
+    main,
+    header ul {
+        flex-direction: column;
     }
-  
-    body {
-      max-width: 1200px;
+        
+    .personal-photo {
+    top: 100px;
     }
-  }
+
+    #top-photo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    div #images img {
+        width: 239px;
+        height: 100px;
+    }
+
+    #images .project2 {
+        top: 45px;
+    }
+
+    #images .project3 {
+        left: 245px;
+        top: 45px;
+    }
+
+    #images .project4 {
+        top: 150px;
+    }
+
+    #images .project5 {
+        left: 245px;
+        top: 150px;
+    }
+}
   
