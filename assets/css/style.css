@@ -6,10 +6,34 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } */
 
+/* img {
+    height: 9rem;
+} */
+
+main {
+    padding: 2%;
+    background-color: #A499B3;
+}
+
+body {
+    /* background-color: #534B62; */
+    background-image: url(background.png);
+}
+
 /* Sets the padding, background color of the header */
 .header {
-    padding: 20px;
-    background-color: #0b1b24;
+    padding: 3%;
+    background-color: #1B1725;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px;
+}
+
+#portfolio {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Sets the padding, font color, background color, justification, and inline display of the h1 text */
@@ -138,11 +162,11 @@ h4 {
 }
 
 /* Sets sizing of top photo in the work section */
-#top-photo img {
+/* #top-photo img {
     width: 698px;
     height: 250px;
     padding-left: 4px;
-}
+} */
 
 /* Sets text styling of the top photo textbox */
 #top-photo .top-photo-text {
@@ -182,14 +206,14 @@ div #images div.project-row {
 }
 
 /* Sizing and padding for bottom work images */
-div #images img{
+/* div #images img{
     width: 350px;
     height: 150px;
     padding-right: 2px;
     padding-left: 4px;
     padding-top: 2px;
     padding-bottom: 2px;
-}
+} */
 
 /* textbox colors and positiong for project 2 */
 #images .project2 {
@@ -282,7 +306,7 @@ h6 {
     top: 100px;
     }
 
-    #top-photo img {
+    /* #top-photo img {
         width: 100%;
         height: 100%;
     }
@@ -290,7 +314,7 @@ h6 {
     div #images img {
         width: 239px;
         height: 100px;
-    }
+    } */
 
     #images .project2 {
         top: 45px;

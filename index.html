@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,20 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Catherine Foye | Portfolio</title>
 </head>
+
+<header class="header">
+    <h1>Catherine Foye</h1>
+    <ul>
+        <li class="list"><a href="#about-me">About Me</a></li>
+        <li class="list"><a href="#work">Work</a></li>
+        <li class="list"><a href="#contact-me">Contact Me</a></li>
+        <li class="list"><a href="./files/Foye-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+    </ul>
+</header>
+
 <body>
     <!-- Header section containing my name, and navigation links to the About Me, Work examples, Contact Me section, and Resume PDF -->
-    <header class="header">
+    <!-- <header class="header">
         <h1>Catherine Foye</h1>
         <ul>
             <li class="list"><a href="#about-me">About Me</a></li>
@@ -19,19 +31,35 @@
             <li class="list"><a href="#contact-me">Contact Me</a></li>
             <li class="list"><a href="./files/Foye-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
         </ul>
-    </header>
+    </header> -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/me.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+        </div>
+    </div>
 
     <!-- Images for header and personal photo -->
-    <div>    
+    <!-- <div>
         <img src="./images/header.jpg" class="header-image">
         <img src="./images/me.jpg" class="personal-photo">
-    </div>
+    </div> -->
 
     <br>
 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <!-- <div class="row row-cols-3 row-cols-md-4 g-4">
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card h-100" style="width: 18rem;">
                 <a href="https://jgault87.github.io/city-scapes/" target="_blank" rel="noopener noreferrer" class="img">
                     <img src="./images/project4.PNG" class="card-img-top" alt="CityScapes Project 1">
                 </a>
@@ -44,7 +72,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card h-100" style="width: 18rem;">
                 <a href="https://cdfoye.github.io/Coding-Quiz/" target="_blank" rel="noopener noreferrer" class="img">
                     <img src="./images/project5.PNG" class="card-img-top" alt="Coding Quiz">
                 </a>
@@ -57,7 +85,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card h-100" style="width: 18rem;">
                 <a href="https://cdfoye.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer" class="img">
                     <img src="./images/project6.PNG" class="card-img-top" alt="CityScapes Project 1">
                 </a>
@@ -70,7 +98,73 @@
             </div>
         </div>
         <div class="col">
-      </div>
+    </div> -->
+
+    <main>
+        <section id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card h-100">
+                            <div class="card-block">
+                                <a href="https://jgault87.github.io/city-scapes/" target="_blank" rel="noopener noreferrer" class="img">
+                                    <img src="./images/project4.PNG" class="card-img-top" alt="CityScapes Project 1">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">City Scapes</h5>
+                                    <p class="card-text">Application to aid in researching new cities to visit or move to. Coding
+                                        bootcamp project 1.</p>
+                                    <p class="card-text">Click on the image to visit the application.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card h-100">
+                            <div class="card-block">
+                                <a href="https://cdfoye.github.io/Coding-Quiz/" target="_blank" rel="noopener noreferrer" class="img">
+                                    <img src="./images/project5.PNG" class="card-img-top" alt="Coding Quiz">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Coding Quiz</h5>
+                                    <p class="card-text">5 question quiz to test coding knowledge. Saves player's initials and score
+                                        to highscores page.</p>
+                                    <p class="card-text">Click on the image to visit the quiz.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card h-100">
+                            <div class="card-block">
+                                <a href="https://cdfoye.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer" class="img">
+                                    <img src="./images/project6.PNG" class="card-img-top" alt="Weather Dashboard">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Weather Dashboard</h5>
+                                    <p class="card-text">A weather dashboard application with search functionality to find current
+                                        weather conditions and the future weather outlook for multiple cities.</p>
+                                    <p class="card-text">Click on the image to visit the dashboard.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
 
     <!-- About me section containing a brief introduction
     <div class="row">
@@ -163,6 +257,6 @@
         </div>
     </div> -->
 
-    
 </body>
+
 </html>
