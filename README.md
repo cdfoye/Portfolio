@@ -14,7 +14,7 @@
 <!-- PROJECT DESCRIPTION -->
 <h1 align="center"> Description</h1>
 
-This project contains my portfolio that highlights top projects completed during the full stack coding boot camp. It includes an about me section, a link to my resume, as well as different methods of contacting me. The goal is to continue updating my portfolio as the bootcamp and my skills progress. I used HTML, CSS, and Bootstrap to create and style the project.
+This project contains my mobile-responsive portfolio that highlights top projects completed during the full stack coding boot camp. It includes an about me section, a link to my resume, as well as different methods of contacting me. The goal is to continue updating my portfolio as the bootcamp and my skills progress. I used HTML, CSS, and Bootstrap to create and style the project.
 
 <br />
 <br />
