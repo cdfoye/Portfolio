@@ -1,43 +1,33 @@
-/* Sets behavior of width and height properties and sets font family for the page*/
-/* * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
-
-/* img {
-    height: 9rem;
-} */
-
+/* Add padding for space and background color to main content */
 main {
     padding: 2%;
     background-color: #d9c6ba;
 }
 
-/* body {
-    background-color: #534B62;
-} */
-
+/* class to add padding around content */
 .add-space {
     padding: 4rem 0;
 }
 
+/* styling for link to background image reference text/link */
 #credit {
     text-decoration: none;
     color: #f8f9fa8f;
 }
 
+/* display properties and spacing for project cards */
 .card {
     display: inline-block;
     margin: 15px;
 }
 
+/* add margin for spacing to portfolio section */
 #portfolio {
     margin-left: 20px;
     margin-right: 20px;
 }
 
+/* increase font size, remove hyperlink underline, and change text color for contact section */
 .contact-list {
     font-size: 1.5em;
     text-decoration: none;
